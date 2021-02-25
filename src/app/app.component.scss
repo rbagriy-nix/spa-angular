@@ -1,0 +1,10 @@
+.main_div {
+  width: 100%;
+  height: calc(100vh - 96px);
+  background: #7be0ed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
