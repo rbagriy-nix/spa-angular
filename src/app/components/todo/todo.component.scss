@@ -1,0 +1,68 @@
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+mat-card {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto 0 auto;
+}
+mat-slide-toggle {
+  width: 100%;
+}
+.mat-list-item-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+mat-divider {
+  top: 0;
+  bottom: auto;
+}
+mat-icon {
+  color: grey;
+}
+.mat-form-field-wrapper {
+  padding-bottom: 0;
+}
+.main_div {
+  width: 100%;
+  height: calc(100vh - 96px);
+  background: #7be0ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.add-todo{
+  max-width: 400px;
+  background: #fff;
+  padding: 16px;
+  width: 100%;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  display: flex;
+  border-radius: 5px;
+}
+
+.newBtn {
+  width: 50px;
+  height: 55px;
+  background-color: #16a085 !important;
+  color: white !important;
+  box-shadow: 5px 5px 15px -5px rgb(0 0 0 / 30%);
+  border-radius: 50% !important;
+  cursor: pointer;
+}
+
+.newBtn-icon{
+  color: white !important;
+  cursor: pointer;
+}
+
+.add-todo-input {
+  width: 100%;
+  margin-right: 16px;
+}
