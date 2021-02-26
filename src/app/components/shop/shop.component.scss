@@ -1,0 +1,24 @@
+.card-product{
+  width: 33.33%;
+  max-width: 400px;
+  margin: 25px;
+}
+.card-wrapper{
+  height: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 25px;
+  color: #fe8033;
+  span {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+.card-img {
+  max-height: 375px;
+  width: 100%;
+}

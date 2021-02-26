@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import data from './data'
 
 @Component({
   selector: 'app-shop',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop.component.scss']
 })
 export class ShopComponent implements OnInit {
+
+  products = data
 
   constructor() { }
 

@@ -1,1 +1,24 @@
-<p>shop works!</p>
+<div class="main_div card-wrapper">
+
+  <mat-card class="card-product" *ngFor="let product of products">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ product.name }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image class="card-img" src="{{ product.thumb }}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        {{product.description}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <p class="price">{{ product.price }}<span>{{ product.currency }}</span></p>
+      <button mat-raised-button color="warn">Buy</button>
+    </mat-card-actions>
+  </mat-card>
+
+
+
+</div>
+
+<a routerLink="/" style="width: 200px; display: block; margin-top: 15px;" class="btn btn-danger btn-large m-auto mt-3">Back to home</a>
